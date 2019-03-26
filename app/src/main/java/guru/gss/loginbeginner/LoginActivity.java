@@ -28,7 +28,7 @@ import okhttp3.Response;
 public class LoginActivity extends AppCompatActivity {
 
     private final MediaType REQWEST_HEADERS = MediaType.get("application/json; charset=utf-8");
-    private final String URL = "https://gss.guru/api";
+    private final String URL = "https://gss.guru/api/authorization";
     private final String TAG = "gss.guru";
 
     private OkHttpClient client = new OkHttpClient();
