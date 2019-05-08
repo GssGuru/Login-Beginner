@@ -1,6 +1,5 @@
 package guru.gss.loginbeginner;
 
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.SharedPreferences;
@@ -78,19 +77,18 @@ public class LoginActivity extends AppCompatActivity {
         boolean cancel = false;
         View focusView = null;
 
-        // Check for a valid password, if the user entered one.
         if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {
-            mPasswordView.setError(getString(R.string.error_invalid_password));
+            mPasswordView.setError("This password is too short");
             focusView = mPasswordView;
             cancel = true;
         }
 
         if (TextUtils.isEmpty(email)) {
-            mEmailView.setError(getString(R.string.error_field_required));
+            mEmailView.setError("This field is required");
             focusView = mEmailView;
             cancel = true;
         } else if (!isEmailValid(email)) {
-            mEmailView.setError(getString(R.string.error_invalid_email));
+            mEmailView.setError("This email address is invalid");
             focusView = mEmailView;
             cancel = true;
         }
@@ -205,14 +203,14 @@ public class LoginActivity extends AppCompatActivity {
     private final String SAVED_TEXT_EMAIL = "saved_text_email";
     private final String SAVED_TEXT_PASSWORD = "saved_text_password";
 
-    private void saveEmailAndPasswd(String email, String password){
+    private void saveEmailAndPasswd(String email, String password) {
         SharedPreferences.Editor ed = sPref.edit();
         ed.putString(SAVED_TEXT_EMAIL, email);
         ed.putString(SAVED_TEXT_PASSWORD, password);
         ed.commit();
     }
 
-    private void loadEmailAndPasswd(){
+    private void loadEmailAndPasswd() {
         String email = sPref.getString(SAVED_TEXT_EMAIL, "");
         String password = sPref.getString(SAVED_TEXT_PASSWORD, "");
         mEmailView.setText(email);
