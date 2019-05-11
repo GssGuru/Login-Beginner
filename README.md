@@ -1,5 +1,8 @@
 # Login Page
-about
+Simple example login page with 1 Button, 2 EditText and internet reqwest
+
+# Attention! 
+This example was created exclusively for very beginner programmers. For such a code you will be dismissed from work but at this stage he will help you understand the essence of the work.
 
 # About the aplication
  - Simple example client-server aplication
