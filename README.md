@@ -1,11 +1,17 @@
-# Google Play
-[`My newspapers`](http://play.google.com/store/apps/details?id=newspaper.gamestudiostandart.newspaper)
-
+# Login Page
+about
 
 # About the aplication
  - Simple example client-server aplication
  - Work with restful api
  - Saving data to work offline
+
+# Preview
+
+![](http://media.giphy.com/media/5b9xDSw5DBiGBGwRak/giphy.gif) ![](http://media.giphy.com/media/4VXZfmSXGJAiC3wsZb/giphy.gif)
+
+
+
 
 
 # Solution
@@ -77,9 +83,7 @@
 </details>
 
 
-# Preview
 
-![](https://media.giphy.com/media/yuQvSAdfVbNUiPJZBl/giphy.gif) ![](http://media.giphy.com/media/YWWgtGkP2KWVlsTpfr/giphy.gif)
-![](http://media.giphy.com/media/kERJqKjDrnxTjaH83y/giphy.gif) ![](http://media.giphy.com/media/lffWSl65jOQyRPKuta/giphy.gif)
+
 
 
