@@ -13,12 +13,7 @@ This example was created exclusively for very beginner programmers. For such a c
 <p>
 
 ## Manifest
-In the manifest add only permission on the Internet
 In the [`Manifest`](https://github.com/gamestudiostandart/Newspaper/blob/master/app/src/main/AndroidManifest.xml) add only permission on the Internet
-
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-<uses-permission android:name="android.permission.INTERNET" />
 
 ## gradle
 + internet
