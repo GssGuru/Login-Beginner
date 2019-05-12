@@ -19,7 +19,7 @@ In the [`Manifest`](https://github.com/GssGuru/Login-Beginner/blob/master/app/sr
 In the [`gradle`](https://github.com/GssGuru/Login-Beginner/blob/master/app/build.gradle) add only dependencies on the Internet. Read the comments in the code
 
 ## Aplication code
-[`Aplication code`](https://github.com/gamestudiostandart/Newspaper/blob/master/app/src/main/AndroidManifest.xml) Change only Application Name
+[`Aplication code`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/java/guru/gss/loginbeginner) Change only Application Name
 
 ## Resources code
 [`Res folder.`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/res) Change only Application Name
