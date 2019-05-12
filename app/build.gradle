@@ -20,5 +20,10 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
+
+    /*
+    ENG: dependencies for the internet request
+    RU: зависимости для интернет-запроса
+    */
     implementation 'com.squareup.okhttp3:okhttp:3.14.0'
 }
