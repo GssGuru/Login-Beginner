@@ -13,14 +13,16 @@ This example was created exclusively for very beginner programmers. For such a c
 <p>
 
 ## Manifest
-In the [`Manifest`](https://github.com/gamestudiostandart/Newspaper/blob/master/app/src/main/AndroidManifest.xml) add only permission on the Internet
+In the [`Manifest`](https://github.com/gamestudiostandart/Newspaper/blob/master/app/src/main/AndroidManifest.xml) add only permission on the Internet. Read the comments in the code
 
 ## gradle
-+ internet
+In the [`gradle`](https://github.com/gamestudiostandart/Newspaper/blob/master/app/src/main/AndroidManifest.xml) add only dependencies on the Internet. Read the comments in the code
 
-## Aplication
-+ activity - MainActivity
-+ activity - SearchActivity
+## Aplication code
+[`Aplication code`](https://github.com/gamestudiostandart/Newspaper/blob/master/app/src/main/AndroidManifest.xml) Change only Application Name
+
+## Resources code
+[`Res folder.`](https://github.com/gamestudiostandart/Newspaper/blob/master/app/src/main/AndroidManifest.xml) Change only Application Name
 
 </p>
 </details>
