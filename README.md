@@ -9,6 +9,7 @@ This example was created exclusively for very beginner programmers. For such a c
 ![](http://media.giphy.com/media/5b9xDSw5DBiGBGwRak/giphy.gif) ![](http://media.giphy.com/media/4VXZfmSXGJAiC3wsZb/giphy.gif)
 
 # Code
+We gust need do it)
 <details><summary>Open</summary>
 <p>
 
