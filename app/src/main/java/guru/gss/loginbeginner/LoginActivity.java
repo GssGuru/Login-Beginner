@@ -26,15 +26,25 @@ import okhttp3.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private final MediaType REQWEST_HEADERS = MediaType.get("application/json; charset=utf-8");
-    private final String URL = "https://gss.guru/api/authorization";
+    /*
+    ENG: prepare TAG elements
+    RU: подготовить элементы TAG
+    */
     private final String TAG = "gss.guru";
 
+    /*
+    ENG: prepare elements for internet request
+    RU: подготовить элементы для интернет-запроса
+    */
+    private final MediaType REQWEST_HEADERS = MediaType.get("application/json; charset=utf-8");
+    private final String URL = "https://gss.guru/api/authorization";
     private OkHttpClient client = new OkHttpClient();
     private UserLoginTask mAuthTask = null;
 
-    private SharedPreferences sPref;
-
+    /*
+    ENG: prepare Views elements
+    RU: подготовить элементы Views
+    */
     private EditText mEmailView;
     private EditText mPasswordView;
     private View mProgressView;
@@ -45,6 +55,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        /*
+        ENG: initialize the views and click on the button
+        RU:инициализировать views и нажатие на кнопку
+        */
         mEmailView = (EditText) findViewById(R.id.email);
         mPasswordView = (EditText) findViewById(R.id.password);
 
@@ -63,6 +77,10 @@ public class LoginActivity extends AppCompatActivity {
         loadEmailAndPasswd();
     }
 
+    /*
+    ENG: get info from views and validate it and if is information is valid - do internet request and get result from server
+    RU: получить информацию из views и проверить ее, и если информация действительна - сделать запрос в Интернете и получить результат с сервера
+    */
     private void logIn() {
         if (mAuthTask != null) {
             return;
@@ -110,6 +128,10 @@ public class LoginActivity extends AppCompatActivity {
         return password.length() > 4;
     }
 
+    /*
+    ENG: method of animation with views and progress and
+    RU: метод анимации с Views и progress и
+    */
     private void showLoadingDialog(final boolean show) {
         int shortAnimTime = getResources().getInteger(android.R.integer.config_shortAnimTime);
         mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);
@@ -129,6 +151,10 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    /*
+    ENG: Send POST Internet request with parameters(Email and password) and get result
+    RU: Отправьте POST-запрос в Интернет с параметрами (адрес электронной почты и пароль) и получите результат
+    */
     public class UserLoginTask extends AsyncTask<Void, Void, String> {
 
         private final String mEmail;
@@ -200,6 +226,11 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    /*
+    ENG: Save email and password in storage(Shared Preference) and using it in next pages in the application
+    RU: Сохраните электронную почту и пароль в хранилище (Shared Preference) и используйте его на следующих страницах приложения
+    */
+    private SharedPreferences sPref;
     private final String SAVED_TEXT_EMAIL = "saved_text_email";
     private final String SAVED_TEXT_PASSWORD = "saved_text_password";
 
