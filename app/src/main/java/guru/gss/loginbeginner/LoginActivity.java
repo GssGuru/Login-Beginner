@@ -27,14 +27,14 @@ import okhttp3.Response;
 public class LoginActivity extends AppCompatActivity {
 
     /*
-    ENG: prepare TAG elements
-    RU: подготовить элементы TAG
+    ENG: Prepare TAG elements
+    RU: Подготовить элементы TAG
     */
     private final String TAG = "gss.guru";
 
     /*
-    ENG: prepare elements for internet request
-    RU: подготовить элементы для интернет-запроса
+    ENG: Prepare elements for internet request
+    RU: Подготовить элементы для интернет-запроса
     */
     private final MediaType REQWEST_HEADERS = MediaType.get("application/json; charset=utf-8");
     private final String URL = "https://gss.guru/api/authorization";
@@ -42,8 +42,8 @@ public class LoginActivity extends AppCompatActivity {
     private UserLoginTask mAuthTask = null;
 
     /*
-    ENG: prepare Views elements
-    RU: подготовить элементы Views
+    ENG: Prepare Views elements
+    RU: Подготовить элементы Views
     */
     private EditText mEmailView;
     private EditText mPasswordView;
@@ -56,8 +56,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         /*
-        ENG: initialize the views and click on the button
-        RU:инициализировать views и нажатие на кнопку
+        ENG: Initialize the views and click on the button
+        RU: Инициализировать views и нажатие на кнопку
         */
         mEmailView = (EditText) findViewById(R.id.email);
         mPasswordView = (EditText) findViewById(R.id.password);
@@ -78,8 +78,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     /*
-    ENG: get info from views and validate it and if is information is valid - do internet request and get result from server
-    RU: получить информацию из views и проверить ее, и если информация действительна - сделать запрос в Интернете и получить результат с сервера
+    ENG: Get info from views and validate it and if is information is valid - do internet request and get result from server
+    RU: Получить информацию из views и проверить ее, и если информация действительна - сделать запрос в Интернете и получить результат с сервера
     */
     private void logIn() {
         if (mAuthTask != null) {
@@ -129,8 +129,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     /*
-    ENG: method of animation with views and progress and
-    RU: метод анимации с Views и progress и
+    ENG: Method of animation with views and progress and
+    RU: Метод анимации с Views и progress и
     */
     private void showLoadingDialog(final boolean show) {
         int shortAnimTime = getResources().getInteger(android.R.integer.config_shortAnimTime);
