@@ -20,7 +20,8 @@ In the [`Manifest`](https://github.com/GssGuru/Login-Beginner/blob/master/app/sr
 In the [`gradle`](https://github.com/GssGuru/Login-Beginner/blob/master/app/build.gradle) add only dependencies on the Internet. Read the comments in the code
 
 ## Aplication code
-[`Aplication code`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/java/guru/gss/loginbeginner). Carefully read the code comments.
+[`Aplication code`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/java/guru/gss/loginbeginner). 
+Carefully read the code comments.
 
 Since this project is for beginners, we will write everything in activit, which we divide into several sections.
 - Find and initialize screen elements
