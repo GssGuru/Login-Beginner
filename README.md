@@ -23,11 +23,11 @@ In the [`gradle`](https://github.com/GssGuru/Login-Beginner/blob/master/app/buil
 [`Aplication code`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/java/guru/gss/loginbeginner) - is the code with the mechanics of the application.
 Carefully read the code comments.
 
-Since this project is for beginners, we will write everything in activit, which we divide into several sections.
-- Find and initialize screen elements
+Since this project is for beginners, we will write everything in activity. Without using any architectural solutions.
+- Find and initialize elements in activity
 - Validation of data for correctness (email and password) to prevent a request with bad data
-- Show request status (Animation on input change and progress)
 - The method that will send a request to the server and wait for a response from the server
+- Show request status (Animation on input change and progress)
 
 ## Resources code
 [`Res folder.`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/res) Change only Application Name
