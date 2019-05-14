@@ -23,7 +23,7 @@ In the [`gradle`](https://github.com/GssGuru/Login-Beginner/blob/master/app/buil
 [`Aplication code`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/java/guru/gss/loginbeginner) - is the code with the mechanics of the application.
 Carefully read the code comments.
 
-Since this project is for beginners, we will write everything in activity. Without using any architectural solutions.
+Since this project is for beginners, we will write everything in [`LoginActivity`](https://github.com/GssGuru/Login-Beginner/blob/master/app/src/main/java/guru/gss/loginbeginner/LoginActivity.java). Without using any architectural solutions.
 - Find and initialize elements in activity
 - Validation of data for correctness (email and password) to prevent a request with bad data
 - The method that will send a request to the server and wait for a response from the server
