@@ -20,11 +20,16 @@ In the [`Manifest`](https://github.com/GssGuru/Login-Beginner/blob/master/app/sr
 In the [`gradle`](https://github.com/GssGuru/Login-Beginner/blob/master/app/build.gradle) add only dependencies on the Internet. Read the comments in the code
 
 ## Aplication code
-[`Aplication code`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/java/guru/gss/loginbeginner) Change only Application Name
+[`Aplication code`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/java/guru/gss/loginbeginner). Carefully read the code comments.
+
+Since this project is for beginners, we will write everything in activit, which we divide into several sections.
+1: Find and initialize screen elements
+2: Validation of data for correctness (email and password) to prevent a request with bad data
+3: Show request status (Animation on input change and progress)
+4: The method that will send a request to the server and wait for a response from the server
 
 ## Resources code
 [`Res folder.`](https://github.com/GssGuru/Login-Beginner/tree/master/app/src/main/res) Change only Application Name
 
 </p>
 </details>
-
